@@ -11,24 +11,29 @@ class AboutMe extends React.Component {
               <h1>Here's A Little About Me</h1>
             </div>
             <div style={{backgroundColor: 'white'}}>
-              <div>
+              <div style={{backgroundImage: "./images/treehacks1.png"}}>
                 {/* Find profile picture to put here */}
               </div>
-              <p style={{color: '#808080'}}>
-                Hi there! My name is Adam and I'm a Bioengineering major at UC Berkeley
-                with a passion for Full Stack Web Development, UX Design,
-                and Computer Science. After being introduced to Computer Science by
-                my mentors at Google, I've been relentlessly practicing
-                and learning to build my programming and development
-                skills. What I lack in experience, I make up for with a determination and
-                passion to learn. If I don't know how to do what you ask
-                of me, I'll tell you "I don't know..., but I'll learn how."
-              </p>
-              <p>
-                When I'm not on my laptop, I enjoy painting, running, and gaming.
-              </p>
+              <div>
+                <p style={{color: '#808080'}}>
+                  Hi there! My name is Adam and I'm a Bioengineering major at UC Berkeley
+                  with a passion for Full Stack Web Development, UX Design,
+                  and Computer Science. After being introduced to Computer Science by
+                  my mentors at Google, I've been relentlessly practicing
+                  and learning to build my programming and development
+                  skills. What I lack in experience, I make up for with a determination and
+                  passion to learn. If I don't know how to do what you ask
+                  of me, I'll tell you "I don't know..., but I'll learn how."
+                </p>
+                <p>
+                  When I'm not on my laptop, I enjoy painting, running, and gaming.
+                </p>
+              </div>
               <h1>TL;DR</h1>
               {/* short icon box-list goes here */}
+              <div>
+                <h1>Small List goes here, try and use css grid</h1>
+              </div>
             </div>
           </div>
         </section>

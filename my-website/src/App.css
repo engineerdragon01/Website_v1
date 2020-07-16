@@ -19,7 +19,7 @@
 .titleText {
   font-family: monospace;
   font-size: 40px;
-  padding-top: 30vh;
+  padding-top: 25vh;
 }
 
 .titleText h1 {
@@ -29,7 +29,7 @@
 .about {
   background-color: lightblue;
   text-align: center;
-  padding-top: 1px;
+  padding-top: 10px;
   padding-bottom: 2px;
   font-family: monospace;
 }
@@ -41,7 +41,6 @@
 
 .about p {
   text-align: center;
-  /* border: 1px solid black; */
   display: inline-block;
   min-width: 40vw;
   max-width: 60vw;
